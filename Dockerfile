@@ -11,7 +11,7 @@ WORKDIR /app
 COPY . .
 
 # Install Python deps
-RUN pip3 install -r requirements.txt
+RUN pip3 install -r server/requirements.txt
 
 # Install Node deps
 RUN npm install
