@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: cyberpulse
+    env: node
+    buildCommand: npm install
+    startCommand: tsx server/index.ts
+    plan: free
